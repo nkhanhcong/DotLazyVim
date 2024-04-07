@@ -12,5 +12,8 @@ return {
         width = 40,
       },
     })
+
+    vim.api.nvim_set_keymap("n", "<leader>er", ":NvimTreeToggle<CR>", { noremap = true, silent = true })
+    vim.api.nvim_set_keymap("n", "<leader>ec", ":NvimTreeFindFile<CR>", { noremap = true, silent = true })
   end,
 }

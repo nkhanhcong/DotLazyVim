@@ -32,7 +32,6 @@ require("lazy").setup({
   performance = {
     rtp = {
       -- disable some rtp plugins
-      -- disable
       disabled_plugins = {
         "gzip",
         -- "matchit",
